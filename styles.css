@@ -1,0 +1,18 @@
+#slideshow{
+    border: 5px solid black;
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+
+
+.slide{
+    position: absolute;
+    top: 0;
+    left:  0;
+    display: none;
+}
+.slide:first-child{
+    display: block;
+}
+
